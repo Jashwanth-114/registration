@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+    <style>
+        fieldset{
+            width: fit-content;
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><b>Student Registration Form</b></legend>
+   
+    <form action="../day 3 task-3.html" method="get">
+        <label for="name"><b>Student Name :</b></label> <br> <br>
+        <input type="text" id="name" placeholder="enter your first name" name="my name">  
+        <input type="text" id="name" placeholder="enter your surname" name="surname"> <br> <br>
+        <label for="email"> <b>Email:</b></label>  <br> <br> 
+        <input type="email" id="email" name="email" placeholder="enter your email "> <br> <br>
+        <h3><b>gender</b></h3>
+        <input type="radio" id="male" name="gender" value="gender" >
+        <label for="male">Male</label> <br>
+        <input type="radio" id="female" name="gender" value="gender">
+        <label for="female">Female</label> <br>
+        <input type="radio" id="others" name="gender" value="gender" >
+        <label for="others" >other</label> <br> <br>
+        <label for="address"><b>address:</b></label> <br> <br>
+        <textarea name="address" id="address" name="address" rows="10" cols="30" placeholder="enter your address"></textarea> <br> <br>
+        <h3><b>skills</b></h3>
+       
+        <input type="checkbox" id="html" name="skill" value="skill-1">
+        <label for="html">Html</label>
+        <input type="checkbox" id="css" name="skill" value="skill-2">
+        <label for="css">Css</label>
+        <input type="checkbox" id="js" name="skill" value="skill-3">
+        <label for="js">Java Script</label>
+        <input type="checkbox" id="python" name="skill" value="skill-4">
+        <label for="python">Python</label>
+        <input type="checkbox" id="java" name="skill" value="skill-5">
+        <label for="java">Java</label>
+        <input type="checkbox" id="rjs" name="skill" value="skill-6">
+        <label for="rjs">React js</label>
+        <br> <br>
+        <input type="reset" value="reset">       
+        <input type="submit" value="submit">
+    </form>
+    </fieldset>
+</body>
+</html>
